@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crop Information</title>
+</head>
+<body>
+    <h2>Crop Information</h2>
+    <label for="crop_name">Enter Crop Name:</label>
+    <input type="text" id="crop_name" name="crop_name">
+    <button onclick="getCropInfo()">Get Crop Info</button>
+    <div id="output"></div>
+
+    <script>
+        function getCropInfo() {
+            var cropName = document.getElementById("crop_name").value;
+            // You can use AJAX to send the cropName to the server and retrieve information
+            // Here, I'm just displaying a placeholder message
+            var outputDiv = document.getElementById("output");
+            outputDiv.innerHTML = <p>Fetching information for ${cropName}...</p>;
+        }
+    </script>
+</body>
+</html>

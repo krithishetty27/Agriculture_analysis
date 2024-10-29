@@ -1,0 +1,28 @@
+/* Remove the background image for the body */
+body {
+    margin: 0;
+    padding: 0;
+    background: none; /* Remove the background image */
+    font-family: Futura, Arial, sans-serif;
+    color: white;
+}
+
+/* Other CSS styles for your web application */
+.container {
+    /* You can keep it as it is or modify as needed */
+}
+
+.centered {
+    /* Remove the centering styles */
+}
+
+.info.centered {
+    /* Remove the centering styles */
+}
+
+.info-item {
+    margin: 10px;
+    text-align: center;
+    font-size: 30px; /* You can adjust the font size as needed */
+    border: 2px solid rgb(255, 255, 255); /* Add a black border around the text */
+}
